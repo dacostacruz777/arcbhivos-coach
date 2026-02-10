@@ -11,6 +11,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 # ==========================================================
+
 # 1. CONFIGURACIÓN (TUS DATOS)
 # ==========================================================
 CLIENT_ID = "198338"
@@ -119,3 +120,4 @@ if __name__ == '__main__':
     
     print("🚀 BOT ONLINE")
     app.run_polling(drop_pending_updates=True)
+
